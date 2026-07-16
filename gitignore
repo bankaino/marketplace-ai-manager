@@ -1,0 +1,30 @@
+# Витрина: в этот репозиторий публикуется ТОЛЬКО README и скриншоты.
+# Всё остальное игнорируется, чтобы код случайно не попал в публичный доступ.
+
+# Разрешено:
+!README.md
+!.gitignore
+!screenshots/
+!screenshots/**
+
+# Игнорируем всё остальное
+*
+!README.md
+!.gitignore
+!screenshots/
+
+# На всякий случай — типичные файлы с кодом и секретами
+*.py
+*.ts
+*.tsx
+*.js
+*.jsx
+*.sql
+*.env
+.env*
+*.md.bak
+node_modules/
+__pycache__/
+*.token
+*secret*
+*credential*
