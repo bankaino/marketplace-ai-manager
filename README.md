@@ -1,1 +1,0 @@
-# marketplace-ai-manager
